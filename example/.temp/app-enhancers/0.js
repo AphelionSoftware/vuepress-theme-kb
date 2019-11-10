@@ -1,0 +1,1 @@
+export { default } from "C:\\Git\\vuepress-theme-kb\\example\\.vuepress\\enhanceApp.js"
