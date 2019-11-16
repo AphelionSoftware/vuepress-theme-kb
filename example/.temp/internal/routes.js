@@ -25,22 +25,6 @@ export const routes = [
     redirect: "/2018/11/07/frontmatter-in-vuepress-3/"
   },
   {
-    name: "v-4638da08",
-    path: "/2018/11/07/frontmatter-in-vuepress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-4638da08").then(next)
-    },
-  },
-  {
-    path: "/2018/11/07/frontmatter-in-vuepress/index.html",
-    redirect: "/2018/11/07/frontmatter-in-vuepress/"
-  },
-  {
-    path: "/_posts/2018-11-7-frontmatter-in-vuepress.html",
-    redirect: "/2018/11/07/frontmatter-in-vuepress/"
-  },
-  {
     name: "v-7832e8be",
     path: "/2018/11/07/frontmatter-in-vuepress-2/",
     component: GlobalLayout,
@@ -73,6 +57,22 @@ export const routes = [
     redirect: "/2019/02/26/markdown-slot-2/"
   },
   {
+    name: "v-4638da08",
+    path: "/2018/11/07/frontmatter-in-vuepress/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-4638da08").then(next)
+    },
+  },
+  {
+    path: "/2018/11/07/frontmatter-in-vuepress/index.html",
+    redirect: "/2018/11/07/frontmatter-in-vuepress/"
+  },
+  {
+    path: "/_posts/2018-11-7-frontmatter-in-vuepress.html",
+    redirect: "/2018/11/07/frontmatter-in-vuepress/"
+  },
+  {
     name: "v-901caf40",
     path: "/2019/02/26/markdown-slot-3/",
     component: GlobalLayout,
@@ -89,20 +89,20 @@ export const routes = [
     redirect: "/2019/02/26/markdown-slot-3/"
   },
   {
-    name: "v-2e581418",
-    path: "/2019/05/06/writing-a-vuepress-theme-2/",
+    name: "v-c729b8a8",
+    path: "/2019/02/26/markdown-slot/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-2e581418").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-c729b8a8").then(next)
     },
   },
   {
-    path: "/2019/05/06/writing-a-vuepress-theme-2/index.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
+    path: "/2019/02/26/markdown-slot/index.html",
+    redirect: "/2019/02/26/markdown-slot/"
   },
   {
-    path: "/_posts/2019-5-6-writing-a-vuepress-theme-2.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
+    path: "/_posts/2019-2-26-markdown-slot.html",
+    redirect: "/2019/02/26/markdown-slot/"
   },
   {
     name: "v-7de893c4",
@@ -121,20 +121,20 @@ export const routes = [
     redirect: "/2019/02/26/markdown-slot-4/"
   },
   {
-    name: "v-c729b8a8",
-    path: "/2019/02/26/markdown-slot/",
+    name: "v-2e581418",
+    path: "/2019/05/06/writing-a-vuepress-theme-2/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-c729b8a8").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-2e581418").then(next)
     },
   },
   {
-    path: "/2019/02/26/markdown-slot/index.html",
-    redirect: "/2019/02/26/markdown-slot/"
+    path: "/2019/05/06/writing-a-vuepress-theme-2/index.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
   },
   {
-    path: "/_posts/2019-2-26-markdown-slot.html",
-    redirect: "/2019/02/26/markdown-slot/"
+    path: "/_posts/2019-5-6-writing-a-vuepress-theme-2.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
   },
   {
     name: "v-186168f2",
