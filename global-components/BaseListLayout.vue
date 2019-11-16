@@ -30,7 +30,7 @@
   import Vue from 'vue'
   import { NavigationIcon, ClockIcon } from 'vue-feather-icons'
   import { Pagination, SimplePagination } from '@vuepress/plugin-blog/lib/client/components'
-  import Vuetify from 'Vuetify'
+  import Vuetify from 'vuetify'
   
   export default {
     components: { NavigationIcon, ClockIcon, Vuetify },

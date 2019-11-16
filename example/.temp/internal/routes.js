@@ -9,22 +9,6 @@ import GlobalLayout from "C:\\Git\\vuepress-theme-kb\\layouts\\GlobalLayout.vue"
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-b07f4888",
-    path: "/2018/11/07/frontmatter-in-vuepress-3/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-b07f4888").then(next)
-    },
-  },
-  {
-    path: "/2018/11/07/frontmatter-in-vuepress-3/index.html",
-    redirect: "/2018/11/07/frontmatter-in-vuepress-3/"
-  },
-  {
-    path: "/_posts/2018-11-7-frontmatter-in-vuepress-3.html",
-    redirect: "/2018/11/07/frontmatter-in-vuepress-3/"
-  },
-  {
     name: "v-7832e8be",
     path: "/2018/11/07/frontmatter-in-vuepress-2/",
     component: GlobalLayout,
@@ -39,6 +23,22 @@ export const routes = [
   {
     path: "/_posts/2018-11-7-frontmatter-in-vuepress-2.html",
     redirect: "/2018/11/07/frontmatter-in-vuepress-2/"
+  },
+  {
+    name: "v-b07f4888",
+    path: "/2018/11/07/frontmatter-in-vuepress-3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-b07f4888").then(next)
+    },
+  },
+  {
+    path: "/2018/11/07/frontmatter-in-vuepress-3/index.html",
+    redirect: "/2018/11/07/frontmatter-in-vuepress-3/"
+  },
+  {
+    path: "/_posts/2018-11-7-frontmatter-in-vuepress-3.html",
+    redirect: "/2018/11/07/frontmatter-in-vuepress-3/"
   },
   {
     name: "v-4638da08",
@@ -73,20 +73,20 @@ export const routes = [
     redirect: "/2019/02/26/markdown-slot-2/"
   },
   {
-    name: "v-901caf40",
-    path: "/2019/02/26/markdown-slot-3/",
+    name: "v-c729b8a8",
+    path: "/2019/02/26/markdown-slot/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-901caf40").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-c729b8a8").then(next)
     },
   },
   {
-    path: "/2019/02/26/markdown-slot-3/index.html",
-    redirect: "/2019/02/26/markdown-slot-3/"
+    path: "/2019/02/26/markdown-slot/index.html",
+    redirect: "/2019/02/26/markdown-slot/"
   },
   {
-    path: "/_posts/2019-2-26-markdown-slot-3.html",
-    redirect: "/2019/02/26/markdown-slot-3/"
+    path: "/_posts/2019-2-26-markdown-slot.html",
+    redirect: "/2019/02/26/markdown-slot/"
   },
   {
     name: "v-2e581418",
@@ -105,22 +105,6 @@ export const routes = [
     redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
   },
   {
-    name: "v-c729b8a8",
-    path: "/2019/02/26/markdown-slot/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-c729b8a8").then(next)
-    },
-  },
-  {
-    path: "/2019/02/26/markdown-slot/index.html",
-    redirect: "/2019/02/26/markdown-slot/"
-  },
-  {
-    path: "/_posts/2019-2-26-markdown-slot.html",
-    redirect: "/2019/02/26/markdown-slot/"
-  },
-  {
     name: "v-7de893c4",
     path: "/2019/02/26/markdown-slot-4/",
     component: GlobalLayout,
@@ -135,6 +119,22 @@ export const routes = [
   {
     path: "/_posts/2019-2-26-markdown-slot-4.html",
     redirect: "/2019/02/26/markdown-slot-4/"
+  },
+  {
+    name: "v-901caf40",
+    path: "/2019/02/26/markdown-slot-3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-901caf40").then(next)
+    },
+  },
+  {
+    path: "/2019/02/26/markdown-slot-3/index.html",
+    redirect: "/2019/02/26/markdown-slot-3/"
+  },
+  {
+    path: "/_posts/2019-2-26-markdown-slot-3.html",
+    redirect: "/2019/02/26/markdown-slot-3/"
   },
   {
     name: "v-186168f2",
@@ -153,20 +153,12 @@ export const routes = [
     redirect: "/2019/05/06/writing-a-vuepress-theme-3/"
   },
   {
-    name: "v-69e22104",
-    path: "/2019/05/06/writing-a-vuepress-theme/",
+    name: "v-47b1d5a7",
+    path: "/about.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-69e22104").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-47b1d5a7").then(next)
     },
-  },
-  {
-    path: "/2019/05/06/writing-a-vuepress-theme/index.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme/"
-  },
-  {
-    path: "/_posts/2019-5-6-writing-a-vuepress-theme.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme/"
   },
   {
     name: "v-47eedbf0",
@@ -185,12 +177,20 @@ export const routes = [
     redirect: "/2019/05/06/writing-a-vuepress-theme-4/"
   },
   {
-    name: "v-47b1d5a7",
-    path: "/about.html",
+    name: "v-69e22104",
+    path: "/2019/05/06/writing-a-vuepress-theme/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-47b1d5a7").then(next)
+      ensureAsyncComponentsLoaded("Post", "v-69e22104").then(next)
     },
+  },
+  {
+    path: "/2019/05/06/writing-a-vuepress-theme/index.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme/"
+  },
+  {
+    path: "/_posts/2019-5-6-writing-a-vuepress-theme.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme/"
   },
   {
     name: "v-b2754d56",
