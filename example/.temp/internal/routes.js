@@ -41,22 +41,6 @@ export const routes = [
     redirect: "/2018/11/07/frontmatter-in-vuepress-2/"
   },
   {
-    name: "v-a250cabc",
-    path: "/2019/02/26/markdown-slot-2/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-a250cabc").then(next)
-    },
-  },
-  {
-    path: "/2019/02/26/markdown-slot-2/index.html",
-    redirect: "/2019/02/26/markdown-slot-2/"
-  },
-  {
-    path: "/_posts/2019-2-26-markdown-slot-2.html",
-    redirect: "/2019/02/26/markdown-slot-2/"
-  },
-  {
     name: "v-4638da08",
     path: "/2018/11/07/frontmatter-in-vuepress/",
     component: GlobalLayout,
@@ -73,6 +57,22 @@ export const routes = [
     redirect: "/2018/11/07/frontmatter-in-vuepress/"
   },
   {
+    name: "v-a250cabc",
+    path: "/2019/02/26/markdown-slot-2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-a250cabc").then(next)
+    },
+  },
+  {
+    path: "/2019/02/26/markdown-slot-2/index.html",
+    redirect: "/2019/02/26/markdown-slot-2/"
+  },
+  {
+    path: "/_posts/2019-2-26-markdown-slot-2.html",
+    redirect: "/2019/02/26/markdown-slot-2/"
+  },
+  {
     name: "v-901caf40",
     path: "/2019/02/26/markdown-slot-3/",
     component: GlobalLayout,
@@ -87,6 +87,22 @@ export const routes = [
   {
     path: "/_posts/2019-2-26-markdown-slot-3.html",
     redirect: "/2019/02/26/markdown-slot-3/"
+  },
+  {
+    name: "v-2e581418",
+    path: "/2019/05/06/writing-a-vuepress-theme-2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-2e581418").then(next)
+    },
+  },
+  {
+    path: "/2019/05/06/writing-a-vuepress-theme-2/index.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
+  },
+  {
+    path: "/_posts/2019-5-6-writing-a-vuepress-theme-2.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
   },
   {
     name: "v-c729b8a8",
@@ -121,22 +137,6 @@ export const routes = [
     redirect: "/2019/02/26/markdown-slot-4/"
   },
   {
-    name: "v-2e581418",
-    path: "/2019/05/06/writing-a-vuepress-theme-2/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-2e581418").then(next)
-    },
-  },
-  {
-    path: "/2019/05/06/writing-a-vuepress-theme-2/index.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
-  },
-  {
-    path: "/_posts/2019-5-6-writing-a-vuepress-theme-2.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-2/"
-  },
-  {
     name: "v-186168f2",
     path: "/2019/05/06/writing-a-vuepress-theme-3/",
     component: GlobalLayout,
@@ -153,22 +153,6 @@ export const routes = [
     redirect: "/2019/05/06/writing-a-vuepress-theme-3/"
   },
   {
-    name: "v-47eedbf0",
-    path: "/2019/05/06/writing-a-vuepress-theme-4/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Post", "v-47eedbf0").then(next)
-    },
-  },
-  {
-    path: "/2019/05/06/writing-a-vuepress-theme-4/index.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-4/"
-  },
-  {
-    path: "/_posts/2019-5-6-writing-a-vuepress-theme-4.html",
-    redirect: "/2019/05/06/writing-a-vuepress-theme-4/"
-  },
-  {
     name: "v-69e22104",
     path: "/2019/05/06/writing-a-vuepress-theme/",
     component: GlobalLayout,
@@ -183,6 +167,22 @@ export const routes = [
   {
     path: "/_posts/2019-5-6-writing-a-vuepress-theme.html",
     redirect: "/2019/05/06/writing-a-vuepress-theme/"
+  },
+  {
+    name: "v-47eedbf0",
+    path: "/2019/05/06/writing-a-vuepress-theme-4/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Post", "v-47eedbf0").then(next)
+    },
+  },
+  {
+    path: "/2019/05/06/writing-a-vuepress-theme-4/index.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-4/"
+  },
+  {
+    path: "/_posts/2019-5-6-writing-a-vuepress-theme-4.html",
+    redirect: "/2019/05/06/writing-a-vuepress-theme-4/"
   },
   {
     name: "v-47b1d5a7",

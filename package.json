@@ -36,7 +36,7 @@
     "@vuepress/plugin-search": "1.0.0",
     "remove-markdown": "^0.3.0",
     "vue-feather-icons": "^4.21.0",
-    "vuetify": "^2.1.9"
+    "vuetify": "^2.1.10"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.1",
