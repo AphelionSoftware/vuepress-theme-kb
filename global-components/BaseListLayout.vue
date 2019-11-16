@@ -1,7 +1,7 @@
 <template>
   <div id="base-list-layout">
     <div>
-      <v-card  v-for="(page, idx) in pages" :key="idx">
+      <v-card v-for="(page, idx) in pages" :key="idx">
         <v-card-title class="v-title">
           <NavLink :link="page.path">
             <NavigationIcon/>
@@ -30,10 +30,10 @@
   import Vue from 'vue'
   import { NavigationIcon, ClockIcon } from 'vue-feather-icons'
   import { Pagination, SimplePagination } from '@vuepress/plugin-blog/lib/client/components'
-  import {VCard} from 'Vuetify'
+  import Vuetify from 'Vuetify'
   
   export default {
-    components: { NavigationIcon, ClockIcon, VCard },
+    components: { NavigationIcon, ClockIcon, Vuetify },
 
     data() {
       return {

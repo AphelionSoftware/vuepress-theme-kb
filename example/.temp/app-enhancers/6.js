@@ -1,0 +1,1 @@
+export { default } from "C:\\Git\\vuepress-theme-kb\\node_modules\\vuepress-plugin-disqus-comment\\src\\enhanceAppFile.js"

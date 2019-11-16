@@ -1,1 +1,2 @@
-export { default } from "C:\\Git\\vuepress-theme-kb\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"
+import "C:\\Git\\vuepress-theme-kb\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
+export default {}

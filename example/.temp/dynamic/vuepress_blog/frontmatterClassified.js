@@ -8,9 +8,9 @@ export default {
       "scope": "tag",
       "path": "/tag/frontmatter/",
       "pageKeys": [
-        "v-7832e8be",
         "v-b07f4888",
-        "v-4638da08"
+        "v-4638da08",
+        "v-7832e8be"
       ]
     },
     "vuepress": {
@@ -18,13 +18,13 @@ export default {
       "scope": "tag",
       "path": "/tag/vuepress/",
       "pageKeys": [
-        "v-7832e8be",
         "v-b07f4888",
         "v-4638da08",
+        "v-7832e8be",
         "v-a250cabc",
         "v-901caf40",
-        "v-7de893c4",
         "v-2e581418",
+        "v-7de893c4",
         "v-c729b8a8",
         "v-186168f2",
         "v-47eedbf0",

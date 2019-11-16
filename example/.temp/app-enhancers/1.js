@@ -1,2 +1,1 @@
-import "C:\\Git\\vuepress-theme-kb\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
-export default {}
+export { default } from "C:\\Git\\vuepress-theme-kb\\enhanceApp.js"
