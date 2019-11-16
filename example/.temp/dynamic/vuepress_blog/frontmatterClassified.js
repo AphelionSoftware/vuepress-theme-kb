@@ -8,8 +8,8 @@ export default {
       "scope": "tag",
       "path": "/tag/frontmatter/",
       "pageKeys": [
-        "v-7832e8be",
         "v-b07f4888",
+        "v-7832e8be",
         "v-4638da08"
       ]
     },
@@ -18,14 +18,14 @@ export default {
       "scope": "tag",
       "path": "/tag/vuepress/",
       "pageKeys": [
-        "v-7832e8be",
         "v-b07f4888",
-        "v-4638da08",
         "v-a250cabc",
+        "v-7832e8be",
+        "v-4638da08",
+        "v-901caf40",
+        "v-7de893c4",
         "v-c729b8a8",
         "v-2e581418",
-        "v-7de893c4",
-        "v-901caf40",
         "v-186168f2",
         "v-47eedbf0",
         "v-69e22104"
@@ -37,9 +37,9 @@ export default {
       "path": "/tag/markdown/",
       "pageKeys": [
         "v-a250cabc",
-        "v-c729b8a8",
+        "v-901caf40",
         "v-7de893c4",
-        "v-901caf40"
+        "v-c729b8a8"
       ]
     },
     "theme": {
